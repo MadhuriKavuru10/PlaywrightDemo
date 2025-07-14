@@ -1,3 +1,4 @@
+//Imports the Playwright test framework's test and expect utilities.
 import { test, expect } from '@playwright/test';
 
 test('Locators', async ({ page }) => {
